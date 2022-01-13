@@ -1,0 +1,20 @@
+1. Command palette: cmd/ctrl+p
+Przechodzenie po wszystkich plikach po nazwie, ostatnio otwarty jest na samej górze
+
+2. Run Commands: cmd/ctrl+p   >
+Dostęp do komend, rozszerzeń
+
+3. Find symbols (class, interface, elements, variables) in the command palette: cmd/ctrl+p   @
+
+4. The same like upper but open in the file: cmd/ctrl+shift+.
+
+5. Global symbols in the all files in command palette: cmd/ctrl+p   #
+can use short of name symbols, by camelcase
+
+6. Search content in all files in search bar: cmd/ctrl+shift+f
+
+
+
+Quokka extension - execute JSfile in the file
+
+https://www.youtube.com/watch?v=ifTF3ags0XI&ab_channel=Fireship
