@@ -1,0 +1,17 @@
+
+* {
+  margin: 0;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 255, 0.452);
+  height: 100px;
+  color: wheat;
+  font-size: 3rem;
+}
+
+.banner {
+  background: hotpink;
+  min-height: calc(100vh - 100px);
+
+}
