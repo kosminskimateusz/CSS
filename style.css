@@ -1,0 +1,21 @@
+/* Color properties */
+/* Color background-color */
+
+#first {
+  color: silver;
+  background-color: steelblue;
+}
+
+#second {
+  color: rgb(220, 80, 35);
+  background: rgb(30, 150, 150);
+}
+
+/* RGBA 0-1 opacity/transparency */
+
+#third {
+  color: yellow;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* kolory: coolors.co */

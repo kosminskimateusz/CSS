@@ -1,0 +1,49 @@
+/* h1,
+h2 {
+  color: red;
+} */
+
+/* by ID */
+
+#heading {
+  color: gold;
+  background: black;
+}
+
+#footer {
+  color: gray;
+  background: brown;
+}
+
+/* Class Selector */
+
+.green {
+  color: greenyellow;
+  background-color: red;
+}
+
+.red {
+  color: red;
+  background: greenyellow;
+}
+
+/* Class selector, id and many classes to one element of HTML */
+
+#title {
+  color: orange;
+  background: silver;
+  font-size: 3rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+div {
+  color: rgb(163, 112, 18);
+  background: silver;  
+}
+
+span {
+  text-transform: uppercase;
+}

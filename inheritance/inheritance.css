@@ -1,0 +1,37 @@
+/* Elementy dziedziczące przejmują parametry od rodzica, chyba że zostaną nadpisane. Elementy dziedziczące mogą posiadać dodatkowe parametry, których nie posiada rodzic. */
+
+/* body {
+  color: red;
+  font-family: monospace;
+  line-height: 1.5em;
+}
+
+div {
+  color: blue;
+  border: 3px solid black;
+}
+
+h2 {
+  color: orange;
+} */
+
+/* CSS używa ostatniej reguły dla danego elementu, zmieniając jedynie nadpisany parametr */
+/* Regóła dla określonego elementu np class .red, nie jest nadpisywana przez kolejny element ogólny tj. p */
+.red {
+  color: red;
+  font-family: sans-serif;
+}
+p {
+  color: blue;
+  font-family: monospace;
+}
+
+p {
+  color: green;
+}
+
+/* Universal selector '*' najsłabszy selektor, nadpisuje go reszta elementów */
+
+* {
+  color: blue;
+}
