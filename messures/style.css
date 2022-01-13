@@ -1,0 +1,70 @@
+/* Absolute values with px */
+
+/* Percentage values - RELATIVE */
+
+.outer {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+.inner {
+  height: 50%;
+  width: 50%;
+  background-color: red;
+}
+
+/* 
+en - RELATIVE - depends on parent
+1em = 16px defaulf browser style
+1em = base value
+ */
+/* When parent element (div) font size changed, em is font size from parent */
+div {
+  font-size: 10px;
+}
+
+.relative {
+  font-size: 2em;
+}
+
+.absolute {
+  font-size: 32px;
+}
+
+/* 
+ rem - RELATIVE depends on root
+ 1rem = 16px defauld browser style
+  */
+/* When root (html) font size changed, rem is font size from root */
+html {
+  font-size: 32px;
+}
+.relative {
+  font-size: 2rem;
+}
+
+.absolute {
+  font-size: 32px;
+}
+
+/* 
+vh - heigth - percent of the screen heigth
+vw - width - percent of the screen width
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+.vhvwtest {
+  width: 50vw;
+  height: 50vh;
+  background-color: orange;
+}
+
+.vhvwtest2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(83, 79, 72);
+}
