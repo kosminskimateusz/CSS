@@ -13,8 +13,41 @@ can use short of name symbols, by camelcase
 
 6. Search content in all files in search bar: cmd/ctrl+shift+f
 
+7. Go to line: cmd/ctrl+p :12.
+
+8. Zaznaczanie takich samych wyrażeń: cmd/ctrl+d
+
+9. Multiline texting: alt+mouse
+
+10. Przenoszenie linii: alt+up/down
+
+11. Kopiowanie linii: shift+alt+up/down
+
+12. Zaznaczanie linii po linii: cmd/ctrl+l
+
+13. Comment: cmd/ctrl+'/'
+
+14. Open terminal: cmd/ctrl+'
+
+15. Podział ekranu: cmd/ctrl+\
+
+16. Otwarcie terminalu: mac: shift/ctrl+`(~)
+
+17. Czyszczenie terminala: cmd/ctrl+k
+
+
+
 
 
 Quokka extension - execute JSfile in the file
+
+Auto Rename extension - automatycznie zmienia closing tag w html
+
+Add jsdoc comments - możliwość komentowania z run command, w komentarzu widać nazwy funkcji
+
+Better Comments -  ! highligting red, TODO highligting orange
+
+
+ 
 
 https://www.youtube.com/watch?v=ifTF3ags0XI&ab_channel=Fireship
