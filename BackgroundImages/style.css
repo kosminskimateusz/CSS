@@ -1,0 +1,26 @@
+div {
+  height: 400px;
+  border: 1px solid orange;
+  margin: 10px;
+}
+
+.big-img {
+ background: url('./big-img.jpeg');
+/* background-repeat: round; */
+background-size: cover;
+}
+
+.small-img {
+  background: url('./small-img.jpeg');
+  /* background-repeat: round; */
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 20% 50%;
+}
+
+.folder-img {
+  background: url('./folder-img.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}

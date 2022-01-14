@@ -1,0 +1,25 @@
+div {
+  background: orange;
+  margin: 10px;
+  color: darkblue
+}
+
+.none {
+  display: none;
+}
+/* display: none; w ogóle nie wyświetla elementu w dev toolsach */
+.opacity-1 {
+  opacity: 1;
+}
+
+.opacity-5 {
+  opacity: 0.5;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.visibility {
+  visibility: hidden;
+}

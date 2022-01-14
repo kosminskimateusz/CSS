@@ -1,18 +1,24 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 .box-1,
 .box-2,
 .box-3 {
   width: 200px;
   height: 200px;
-  color: wheat
+  color: wheat;
 }
 
 .box-1 {
   background: red;
   padding: 20px;
+  box-sizing: border-box;
 }
 .box-2 {
   background: rgb(17, 0, 255);
-
 }
 .box-3 {
   background: rgb(0, 138, 46);
