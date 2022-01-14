@@ -1,0 +1,49 @@
+/* 
+Block: Top Bottom Margin Respected
+Inline: Top Bottom Margin Not Respected
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center; /* for inline elements */
+}
+
+.block {
+  background: orange;
+  color:palegoldenrod;
+  /* display: inline; */
+  width: 150px;
+  margin: 10px auto;
+  /* margin-left: auto; - automatycznie dobiera max wartość */
+}
+
+.inline {
+  background: greenyellow;
+  color:red;
+  /* display: block; */
+}
+
+ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+ul li a{
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: #111;
+  color:red;
+  display: inline-block; 
+  margin: 5px;
+  /* Wyświetla elementy inline dodając funkcje jak blok, np respektowanie margin top bottom i padding top bottom */
+  padding: 10px 10px;
+}

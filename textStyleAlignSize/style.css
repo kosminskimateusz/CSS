@@ -1,0 +1,42 @@
+/* GOOGLE Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+/* Generic family:
+serif, sans-serif, cursive, fantasy, monospace */
+
+/* Trzy czcionki, od lewej najbardziej pożądana jeśli jest niedostępna, wybiera kolejną, jeśli ta też jest niedostepna wybiera pewniaka, który się wyświetli. Te z rodziny generic zawsze zadziałają */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: oblique;
+  text-align: right;
+  /* Ustawienie tekstu left, center, right */
+}
+
+.main {
+  font-family: "Parisienne", cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.subheading {
+  font-style: normal; 
+  /* przywraca czcionkę do normalnego stylu */
+}
+
+.one {
+  font-weight: bold;
+  font-style: italic;
+text-indent: 50px;
+/* Wcięcie w tekście w pierwszej lini */
+}
+
+.two {
+  font-weight: lighter;
+  font-style: oblique;
+  text-align: left;
+}
+
+/* Oblique dodaje pochylenie do każdej czcionki
+Italic pochyla czcionkę jeśli czcionka została tak zaprojektowana */

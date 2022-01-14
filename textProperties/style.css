@@ -1,0 +1,34 @@
+/* 
+line-hight
+letter-spacing
+word-spacing
+text-transform
+text-decoration
+ */
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+h1 {
+  /* Capitalize - pierwsze litery wielkie 
+  UPPERCASE
+  lowercase*/
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+.one {
+  line-height: 2em;
+}
+
+.two {
+  letter-spacing: 3px;
+  line-height: 30px;
+  text-decoration: overline;
+}
+
+.three {
+  word-spacing: 20px;
+  text-decoration: underline;
+}
