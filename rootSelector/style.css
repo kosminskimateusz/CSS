@@ -1,0 +1,18 @@
+
+
+:root{
+  /* background: orange; */
+  font-size: 150%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.absolute {
+  font-size: 20px;
+}
+
+.responsive {
+  font-size: calc(20rem/16);
+}

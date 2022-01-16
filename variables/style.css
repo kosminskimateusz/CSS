@@ -1,0 +1,38 @@
+:root {
+  --primaryColor: #616161;
+  --secondaryColor: orange;
+  --mainTransition: all 0.4s linear;
+}
+
+.heading {
+  color: var(--primaryColor);
+}
+
+.text {
+  color: chartreuse;
+}
+
+.main-text {
+  color: var(--primaryColor);
+}
+
+.second-heading {
+  color: blueviolet;
+}
+
+.second-heading:hover {
+  color: var(--secondaryColor);
+  transition: var(--mainTransition);
+}
+
+div {
+  --primaryRed: red;
+}
+
+.main-text {
+  color: var(--primaryRed);
+}
+
+.third-heading {
+  color: var(--primaryRed);
+}

@@ -1,0 +1,62 @@
+.first {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+#one {
+  background: orange;
+  transform: scale(0.5, 0.7);
+}
+#two {
+  background: yellow;
+  transform: rotate(20deg);
+}
+
+#three {
+  background: orchid;
+  /* transform: translate(30px, 60px) skewX(20deg) scale(0.7, 0.7) rotate(30deg); */
+  /* transition-property: background, border-radius;
+  transition-duration: 0.8s, 2s;
+  transition-delay: 2s; */
+  /* transition: background 0.8s 3s, border-radius 1s 2s; */
+  transition: all 3s 1s;
+}
+
+#three:hover {
+  background: cornflowerblue;
+  border-radius: 30px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background: cyan;
+  color: orange;
+  margin: 10px;
+  transition: all 1s;
+}
+
+div:hover {
+  transform: translateX(100px);
+}
+
+.ease {
+  transition-timing-function: ease;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
