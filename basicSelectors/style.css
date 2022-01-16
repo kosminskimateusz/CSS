@@ -1,0 +1,76 @@
+* {
+  /* color: orange; */
+}
+
+#heading {
+  font-size: 50px;
+  color: blue;
+  text-transform: uppercase;
+}
+
+.heading {
+  font-size: 35px;
+  text-transform: capitalize;
+  color: aqua;
+}
+
+p {
+  letter-spacing: 10px;
+}
+
+div h1 {
+  color: red;
+}
+
+div > h1 {
+  /* exactly direct h1 belong to div without any elements over h1 */
+  color: orange;
+}
+
+.header > h1 {
+  color: green;
+}
+
+/*
+::first-letter
+::first-line
+ */
+
+#paragraph::first-line {
+  font-size: 30px;
+}
+
+#paragraph::first-letter {
+  color: orange;
+}
+
+p:hover {
+color: red;
+}
+
+.test:hover {
+  color: blue;
+  background: url('../BackgroundImages/big-img.jpeg');
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* :link :visited :hover :active */
+
+a:link {
+  color: aquamarine;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: green;
+}

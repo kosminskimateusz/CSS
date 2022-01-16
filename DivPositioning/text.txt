@@ -1,0 +1,11 @@
+dziecko z pozycją absolute odnosi się do rodzica który posiada pozycję relative
+
+pozycja fixed dla elementu nawet na końcu dokumentu html
+
+.bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+będzie względem zewnętrznego elementu który jest relatywny ustawiony w prawym górnym narożniku

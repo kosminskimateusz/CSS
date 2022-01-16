@@ -1,0 +1,7 @@
+z-index normal is set to 0
+
+if you want get to top sth set z-index: 1;
+
+if deeper set z-index: -1; -2 etc
+
+it doesn't work with position static!!!
